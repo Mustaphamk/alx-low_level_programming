@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry point.
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		if (letter !== 'q' && letter !== 'e')
+		if (letter !== 'e' && letter !== 'q')
 		putchar(letter)
 	}
 
