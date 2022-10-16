@@ -1,21 +1,24 @@
 #include <stdio.h>
 
 /**
- * Description: main - start function
+ * main - DoHardThings
  *
- * Return ! failure
+ * Return: Always 0
  */
 
 int main(void)
 {
-	for (int i = 0; i < 10; i++)
+	int num;
+
+	for (num = 0; num < 10; num++)
 	{
-		putchar(i);
-		if (i < 9)
-		{
-			putchar(','); putchar(' ');
-		}
+		putchar((num % 10) + '0');
+		if (num == 9)
+			continue;
+		putchar(',');
+	       	putchar(' ');
 	}
+
 	putchar('\n');
 	return 0;
 }
