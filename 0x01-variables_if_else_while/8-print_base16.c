@@ -1,17 +1,21 @@
 #include <stdio.h>
 
 /**
- * Description: main - start
+ * main - DoHardThings
  *
- * Return 1 failure
+ * Return: Always 0
  */
 
-int main(voi)
+int main(void)
 {
-	for (char i = 0; i < 10; i++)
-		putchar(i);
-	for (int j = 97; j < 103; j++)
-		putchar(j);
+	int num;
+	char letter;
+
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
+
+	for (letter = 'a'; letter < 'f'; letter++)
+		putchar(letter);
 	putchar('\n');
 	return (0);
 }
