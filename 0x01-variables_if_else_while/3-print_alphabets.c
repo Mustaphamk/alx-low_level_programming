@@ -10,12 +10,12 @@
 
 int main(void)
 {
-	char lc, hc;
+	char letter;
 
-	for (lc = 'a'; lc <= 'z'; lc++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 		putchar(lc);
-	for (hc = 'A'; hc <= 'Z'; hc++)
-		putchar(hc);
+	for (letter = 'A'; letter <= 'Z'; letter++)
+		putchar(letter);
 	putchar('\n');
 
 	return (0);
