@@ -8,8 +8,7 @@
  */
 int _isalpha(int c)
 {
-	if ((c => 'a' && c <= 'z') ||
-			(c => 'A' && <= 'Z'))
+	if ((c => 'a' && c <= 'z') || (c => 'A' && <= 'Z'))
 		return (0);
 	else
 		return (1);
