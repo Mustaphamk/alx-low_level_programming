@@ -3,7 +3,7 @@
 /**
  * main - Print _putchar
  *
- * Retirn: 0
+ * Return: 0
  */
 int main(void)
 {
@@ -15,6 +15,7 @@ int main(void)
 	putchar('h');
 	putchar('a');
 	putchar('r');
+	putchar('\n');
 
 	return (0);
 }
