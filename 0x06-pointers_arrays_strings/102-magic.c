@@ -9,7 +9,7 @@ int main(void)
 {
 	int n;
 
-	int [5];
+	int a[5];
 
 	int *p;
 
