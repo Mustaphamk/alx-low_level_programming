@@ -9,12 +9,12 @@
 char *rot13(char *s);
 {
 	int i, j;
-	char a[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char b[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
+	char a[] = "ABCDEFGHIJKLM";
+	char b[] = "NOPQRSTUVWXYZ";
 
 	for (i = 0; *(s + i); i++)
 	{
-		for (j = 0; j < 52; j++)
+		for (j = 0; j < 26; j++)
 		{
 			if (a[j] == *(s + i))
 			{
