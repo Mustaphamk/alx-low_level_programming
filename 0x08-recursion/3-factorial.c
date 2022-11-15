@@ -13,11 +13,14 @@ int factorial(int n)
 	if (n < a)
 	{
 		return (-1);
+		return (n = n * factorial(n - 1));
 	}
 	else if (n == a)
 	{
 		return (0);
+		return (n = n * factorial(n - 1));
 	}
 	else
-		return n = n * factorial(n - 1);
+		return (1);
+		return (n = n * factorial(n - 1));
 }
