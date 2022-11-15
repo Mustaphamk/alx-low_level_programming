@@ -10,20 +10,20 @@ int factorial(int n)
 	int a = 0;
 
 
-	if (n < a)
+	if (n < 0)
 	{
 		return (-1);
-		return (n = n * factorial(n - 1));
+		/*return (n = n * factorial(n - 1));*/
 	}
-	else if (n == a)
+	else if (n == 0)
 	{
 		return (0);
-		return (n = n * factorial(n - 1));
+		/*return (n = n * factorial(n - 1));*/
 	}
 	else
 	{
 		/*return (1);*/
-		return (n = n * factorial(n - 1));
+		a = n * factorial(n - 1);
 	}
-	return n = n * factorial(n - 1);
+	return (a);
 }
