@@ -13,7 +13,7 @@ int factorial(int n)
 	if (n < a)
 	{
 		return (-1);
-		/*return (n = n * factorial(n - 1));*/
+		return (n = n * factorial(n - 1));
 	}
 	else if (n == a)
 	{
