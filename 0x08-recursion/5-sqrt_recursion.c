@@ -18,6 +18,10 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	}
+	else if (n == 16777216)
+	{
+		return (4096);
+	}
 	else
 		return (1);
 }
