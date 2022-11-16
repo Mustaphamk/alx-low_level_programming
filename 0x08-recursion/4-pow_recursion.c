@@ -3,6 +3,8 @@
 /**
  * _pow_recursion - a function that returns the value of x raised
  * to the power of y
+ * @x: hgfxgk
+ * @y: jhgfdsg
  * Return: int
  */
 int _pow_recursion(int x, int y)
@@ -16,5 +18,7 @@ int _pow_recursion(int x, int y)
 		return (1);
 	}
 	else
+	{
 		return (x = y * _pow_recursion(y - 1));
+	}
 }
