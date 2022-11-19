@@ -12,7 +12,7 @@ int _sqrt_recursion(int n)
 
 	if (n > c)
 	{
-		return ((1) || (n = c * _sqrt_recursion(c)));
+		return ((1) && (n = c * _sqrt_recursion(c)));
 	}
 	else if (n < c)
 	{
