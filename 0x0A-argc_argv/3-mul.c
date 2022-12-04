@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - multiply args
+ * @argc: arg count
+ * @argv: arg vec
+ *
+ * Return: int
+ */
 int main(int argc, char *argv[])
 {
 	int mul = 0;
@@ -10,7 +17,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	mul = atoi(argv[1]) * atoi(argv [2]);
+	mul = atoi(argv[1]) * atoi(argv[2]);
 	printf("%d\n", mul);
 	return (0);
 }
