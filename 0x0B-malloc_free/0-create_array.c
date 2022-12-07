@@ -11,9 +11,9 @@ char *create_array(unsigned int size, char c)
 {
 	char print[];
 
-	while (size == c)
+	while (size = 0)
 	{
-		_putchar(print);
+		putchar(c);
 		return (NULL);
 	}
 	_putchar('\n');
